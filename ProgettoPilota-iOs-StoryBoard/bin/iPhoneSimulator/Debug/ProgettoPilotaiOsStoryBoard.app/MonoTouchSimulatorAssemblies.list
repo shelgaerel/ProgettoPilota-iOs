@@ -1,0 +1,10 @@
+CoreFactory.dll
+CoreLibrary.dll
+DataEntity.dll
+DataEntityManager.dll
+DataListDataSource-iOs.dll
+Mono.Security.dll
+System.Core.dll
+System.Xml.dll
+System.dll
+mscorlib.dll
