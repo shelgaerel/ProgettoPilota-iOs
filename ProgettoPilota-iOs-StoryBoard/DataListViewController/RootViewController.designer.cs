@@ -11,11 +11,13 @@ namespace ProgettoPilotaiOsStoryBoard
 	[Register ("RootViewController")]
 	partial class RootViewController
 	{
+
 		[Outlet]
 		MonoTouch.UIKit.UIBarButtonItem addButton { get; set; }
 		
 		void ReleaseDesignerOutlets ()
 		{
+
 			if (addButton != null) {
 				addButton.Dispose ();
 				addButton = null;

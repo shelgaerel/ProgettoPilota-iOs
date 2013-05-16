@@ -4,7 +4,6 @@ using System.Collections.Generic;
 using MonoTouch.Foundation;
 using MonoTouch.UIKit;
 using CoreLibrary;
-using DataListDataSourceiOs;
 
 namespace ProgettoPilotaiOsStoryBoard
 {
@@ -39,7 +38,7 @@ namespace ProgettoPilotaiOsStoryBoard
 		public override void ViewWillAppear (bool animated)
 		{
 			base.ViewWillAppear (animated);
-			TableView.Source = dataSource = new AreeDataListSource ("areaCell");
+			TableView.Source = dataSource = new AreeDataListSource ("MenuTableCell");
 		}
 
 		public override void PrepareForSegue (UIStoryboardSegue segue, NSObject sender)

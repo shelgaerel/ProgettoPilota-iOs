@@ -78,7 +78,7 @@
   <ItemGroup>
     <Folder Include="Resources\" />
     <Folder Include="DataEntryViewControllers\" />
-    <Folder Include="DataListViewController\" />
+    <Folder Include="MenuTableCell\" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Info.plist" />
@@ -94,6 +94,8 @@
     <Compile Include="DataListViewController\RootViewController.designer.cs">
       <DependentUpon>RootViewController.cs</DependentUpon>
     </Compile>
+    <Compile Include="DataListDataSource\AreeDataListSource.cs" />
+    <Compile Include="DataListDataSource\DataListDataSourceBase.cs" />
   </ItemGroup>
   <ItemGroup>
     <InterfaceDefinition Include="MainStoryboard.storyboard" />
@@ -115,10 +117,6 @@
     <ProjectReference Include="..\CoreFactory\CoreFactory.csproj">
       <Project>{E01305A5-1C4A-4A26-A39E-4AC1B0D6149F}</Project>
       <Name>CoreFactory</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\DataListDataSource-iOs\DataListDataSource-iOs.csproj">
-      <Project>{2F9A1FC4-8C8E-4D5E-8AEB-6B21D1D682CE}</Project>
-      <Name>DataListDataSource-iOs</Name>
     </ProjectReference>
   </ItemGroup>
 </Project>
