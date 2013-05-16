@@ -1,6 +1,10 @@
 ﻿<Properties GitUserInfo="UsingGIT">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.IPhone.6.1" />
-  <MonoDevelop.Ide.Workbench />
+  <MonoDevelop.Ide.Workbench ActiveDocument="CoreFactory/DataEntityManagerFactory.cs">
+    <Files>
+      <File FileName="CoreFactory/DataEntityManagerFactory.cs" Line="20" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore>
       <Breakpoint file="/Users/matteonavanzino/Projects/ProgettoPilota-iOs/CoreLibrary/Utility/Options.cs" line="28" column="1" />
