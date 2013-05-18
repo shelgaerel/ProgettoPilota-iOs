@@ -1,0 +1,250 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CA34EF500000000000000000 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10345B930000000000000000 /* UIKit.framework */; };
+		2E38F2280000000000000000 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31C9FEC60000000000000000 /* MapKit.framework */; };
+		36C5AC000000000000000000 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FD675E00000000000000000 /* Foundation.framework */; };
+		3FA86B060000000000000000 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33977A400000000000000000 /* CoreGraphics.framework */; };
+		35AEE66A0000000000000000 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 393FF3080000000000000000 /* MainStoryboard.storyboard */; };
+		372B180F0000000000000000 /* MenuTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3ABC24AD0000000000000000 /* MenuTableViewCell.xib */; };
+		354920320000000000000000 /* Icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = 38DA2CD00000000000000000 /* Icon-72.png */; };
+		119EA2060000000000000000 /* AppDelegate.h in Sources */ = {isa = PBXBuildFile; fileRef = 152FAEA40000000000000000 /* AppDelegate.h */; };
+		1DCDF9850000000000000000 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 215F06230000000000000000 /* AppDelegate.m */; };
+		1A0A09CB0000000000000000 /* AreeViewController.h in Sources */ = {isa = PBXBuildFile; fileRef = 1D9B16690000000000000000 /* AreeViewController.h */; };
+		1105F8B20000000000000000 /* AreeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 149705500000000000000000 /* AreeViewController.m */; };
+		2639614A0000000000000000 /* RootViewController.h in Sources */ = {isa = PBXBuildFile; fileRef = 29CA6DE80000000000000000 /* RootViewController.h */; };
+		12822A570000000000000000 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 161336F50000000000000000 /* RootViewController.m */; };
+		27B592EF0000000000000000 /* MenuTableViewCell.h in Sources */ = {isa = PBXBuildFile; fileRef = 2B469F8D0000000000000000 /* MenuTableViewCell.h */; };
+		1EB181D60000000000000000 /* MenuTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 22428E740000000000000000 /* MenuTableViewCell.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3C980BDB0000000000000000 /* ProgettoPilota-iOs-StoryBoard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = "ProgettoPilota-iOs-StoryBoard.app"; path = "ProgettoPilota-iOs-StoryBoard.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		10345B930000000000000000 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "UIKit.framework"; path = "System/Library/Frameworks/UIKit.framework"; sourceTree = SDKROOT; };
+		31C9FEC60000000000000000 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "MapKit.framework"; path = "System/Library/Frameworks/MapKit.framework"; sourceTree = SDKROOT; };
+		6FD675E00000000000000000 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "Foundation.framework"; path = "System/Library/Frameworks/Foundation.framework"; sourceTree = SDKROOT; };
+		33977A400000000000000000 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "CoreGraphics.framework"; path = "System/Library/Frameworks/CoreGraphics.framework"; sourceTree = SDKROOT; };
+		393FF3080000000000000000 /* MainStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = "MainStoryboard.storyboard"; path = "MainStoryboard.storyboard"; sourceTree = "<group>"; };
+		3ABC24AD0000000000000000 /* MenuTableViewCell.xib */ = {isa = PBXFileReference; name = "MenuTableViewCell.xib"; path = "MenuTableCell/MenuTableViewCell.xib"; sourceTree = "<group>"; };
+		38DA2CD00000000000000000 /* Icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-72.png"; path = "Icon-72.png"; sourceTree = "<group>"; };
+		152FAEA40000000000000000 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "AppDelegate.h"; path = "AppDelegate.h"; sourceTree = "<group>"; };
+		215F06230000000000000000 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "AppDelegate.m"; path = "AppDelegate.m"; sourceTree = "<group>"; };
+		1D9B16690000000000000000 /* AreeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "AreeViewController.h"; path = "AreeViewController.h"; sourceTree = "<group>"; };
+		149705500000000000000000 /* AreeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "AreeViewController.m"; path = "AreeViewController.m"; sourceTree = "<group>"; };
+		29CA6DE80000000000000000 /* RootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "RootViewController.h"; path = "RootViewController.h"; sourceTree = "<group>"; };
+		161336F50000000000000000 /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "RootViewController.m"; path = "RootViewController.m"; sourceTree = "<group>"; };
+		2B469F8D0000000000000000 /* MenuTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "MenuTableViewCell.h"; path = "MenuTableViewCell.h"; sourceTree = "<group>"; };
+		22428E740000000000000000 /* MenuTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "MenuTableViewCell.m"; path = "MenuTableViewCell.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		33F9C0FA0000000000000000 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA34EF500000000000000000 /* UIKit.framework in Frameworks */,
+				2E38F2280000000000000000 /* MapKit.framework in Frameworks */,
+				36C5AC000000000000000000 /* Foundation.framework in Frameworks */,
+				3FA86B060000000000000000 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		141332880000000000000000 = {
+			isa = PBXGroup;
+			children = (
+				3EACE6D40000000000000000 /* ProgettoPilota-iOs-StoryBoard */,
+				1EC658620000000000000000 /* Frameworks */,
+				9600CAE00000000000000000 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9600CAE00000000000000000 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3C980BDB0000000000000000 /* ProgettoPilota-iOs-StoryBoard.app */,
+			);
+			name = "Products";
+			sourceTree = "<group>";
+		};
+		1EC658620000000000000000 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				10345B930000000000000000 /* UIKit.framework */,
+				31C9FEC60000000000000000 /* MapKit.framework */,
+				6FD675E00000000000000000 /* Foundation.framework */,
+				33977A400000000000000000 /* CoreGraphics.framework */,
+			);
+			name = "Frameworks";
+			sourceTree = "<group>";
+		};
+		3EACE6D40000000000000000 /* ProgettoPilota-iOs-StoryBoard */ = {
+			isa = PBXGroup;
+			children = (
+				152FAEA40000000000000000 /* AppDelegate.h */,
+				1D9B16690000000000000000 /* AreeViewController.h */,
+				38DA2CD00000000000000000 /* Icon-72.png */,
+				393FF3080000000000000000 /* MainStoryboard.storyboard */,
+				2B469F8D0000000000000000 /* MenuTableViewCell.h */,
+				29CA6DE80000000000000000 /* RootViewController.h */,
+				102270610000000000000000 /* MenuTableCell */,
+				1FAFF1620000000000000000 /* Supporting Files */,
+			);
+			name = "ProgettoPilota-iOs-StoryBoard";
+			sourceTree = "<group>";
+		};
+		102270610000000000000000 /* MenuTableCell */ = {
+			isa = PBXGroup;
+			children = (
+				3ABC24AD0000000000000000 /* MenuTableViewCell.xib */,
+			);
+			name = "MenuTableCell";
+			sourceTree = "<group>";
+		};
+		1FAFF1620000000000000000 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				215F06230000000000000000 /* AppDelegate.m */,
+				149705500000000000000000 /* AreeViewController.m */,
+				22428E740000000000000000 /* MenuTableViewCell.m */,
+				161336F50000000000000000 /* RootViewController.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		34DD494B0000000000000000 /* ProgettoPilota-iOs-StoryBoard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 31E4E6010000000000000000 /* Build configuration list for PBXNativeTarget "ProgettoPilota-iOs-StoryBoard" */;
+			buildPhases = (
+				222481E40000000000000000 /* Sources */,
+				33F9C0FA0000000000000000 /* Frameworks */,
+				B0F216F00000000000000000 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ProgettoPilota-iOs-StoryBoard";
+			productName = "ProgettoPilota-iOs-StoryBoard";
+			productReference = 3C980BDB0000000000000000 /* ProgettoPilota-iOs-StoryBoard.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2A2A23710000000000000000 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 2731C0270000000000000000 /* Build configuration list for PBXProject "ProgettoPilota-iOs-StoryBoard" */;
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 141332880000000000000000;
+			productRefGroup = 9600CAE00000000000000000 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				34DD494B0000000000000000 /* ProgettoPilota-iOs-StoryBoard */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B0F216F00000000000000000 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35AEE66A0000000000000000 /* MainStoryboard.storyboard in Resources */,
+				372B180F0000000000000000 /* MenuTableViewCell.xib in Resources */,
+				354920320000000000000000 /* Icon-72.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		222481E40000000000000000 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				119EA2060000000000000000 /* AppDelegate.h in Sources */,
+				1DCDF9850000000000000000 /* AppDelegate.m in Sources */,
+				1A0A09CB0000000000000000 /* AreeViewController.h in Sources */,
+				1105F8B20000000000000000 /* AreeViewController.m in Sources */,
+				2639614A0000000000000000 /* RootViewController.h in Sources */,
+				12822A570000000000000000 /* RootViewController.m in Sources */,
+				27B592EF0000000000000000 /* MenuTableViewCell.h in Sources */,
+				1EB181D60000000000000000 /* MenuTableViewCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		28ADF1CC0000000000000000 /* MonoTouch */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				SDKROOT = iphoneos;
+			};
+			name = MonoTouch;
+		};
+		1C7E9A4D0000000000000000 /* MonoTouch */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				PRODUCT_NAME = "ProgettoPilota-iOs-StoryBoard";
+				WRAPPER_EXTENSION = app;
+			};
+			name = MonoTouch;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2731C0270000000000000000 /* Build configuration list for PBXProject "ProgettoPilota-iOs-StoryBoard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28ADF1CC0000000000000000 /* MonoTouch */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = MonoTouch;
+		};
+		31E4E6010000000000000000 /* Build configuration list for PBXNativeTarget "ProgettoPilota-iOs-StoryBoard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1C7E9A4D0000000000000000 /* MonoTouch */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = MonoTouch;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2A2A23710000000000000000 /* Project object */;
+}

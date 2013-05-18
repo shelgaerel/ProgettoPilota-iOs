@@ -96,9 +96,14 @@
     </Compile>
     <Compile Include="DataListDataSource\AreeDataListSource.cs" />
     <Compile Include="DataListDataSource\DataListDataSourceBase.cs" />
+    <Compile Include="MenuTableCell\MenuTableViewCell.cs" />
+    <Compile Include="MenuTableCell\MenuTableViewCell.designer.cs">
+      <DependentUpon>MenuTableViewCell.cs</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <InterfaceDefinition Include="MainStoryboard.storyboard" />
+    <InterfaceDefinition Include="MenuTableCell\MenuTableViewCell.xib" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <ItemGroup>
@@ -118,5 +123,8 @@
       <Project>{E01305A5-1C4A-4A26-A39E-4AC1B0D6149F}</Project>
       <Name>CoreFactory</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Icon-72.png" />
   </ItemGroup>
 </Project>

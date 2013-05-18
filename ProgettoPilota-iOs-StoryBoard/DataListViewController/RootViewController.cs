@@ -38,7 +38,7 @@ namespace ProgettoPilotaiOsStoryBoard
 		public override void ViewWillAppear (bool animated)
 		{
 			base.ViewWillAppear (animated);
-			TableView.Source = dataSource = new AreeDataListSource ("MenuTableCell");
+			TableView.Source = dataSource = new AreeDataListSource ("MenuTableViewCell", this);
 		}
 
 		public override void PrepareForSegue (UIStoryboardSegue segue, NSObject sender)

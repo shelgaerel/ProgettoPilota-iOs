@@ -12,6 +12,7 @@
 	<string>MainStoryboard</string>
 	<key>MinimumOSVersion</key>
 	<string>5.0</string>
+	<key>CFBundleIconFiles</key>
+	<array/>
 </dict>
 </plist>
-

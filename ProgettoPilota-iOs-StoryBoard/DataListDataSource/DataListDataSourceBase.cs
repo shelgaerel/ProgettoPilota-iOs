@@ -14,10 +14,12 @@ namespace ProgettoPilotaiOsStoryBoard
 	{
 		protected AbstractDataEntityManager DataManager;
 		protected string CellIdentifier;
+		protected UITableViewController RootController;
 
-		public DataListDataSourceBase (string cellIdentifier)
+		public DataListDataSourceBase (string cellIdentifier, UITableViewController rootController)
 		{
 			this.CellIdentifier = cellIdentifier;
+			this.RootController = rootController;
 		}
 
 		public override int RowsInSection (UITableView tableview, int section)

@@ -36,10 +36,12 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Resources\" />
+    <Folder Include="Resources\Images\" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <ItemGroup>
     <Compile Include="DataEntityManagerFactory.cs" />
+    <Compile Include="ImageFactory.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\CoreLibrary\CoreLibrary.csproj">
@@ -50,5 +52,8 @@
       <Project>{32343637-BA8E-40CF-8F33-078DB2394CF9}</Project>
       <Name>DataEntityManager</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Images\gift_72x72.png" />
   </ItemGroup>
 </Project>
