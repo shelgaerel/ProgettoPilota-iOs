@@ -1,27 +1,22 @@
 ﻿<Properties GitUserInfo="UsingGIT">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.IPhone.6.1" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="ProgettoPilota-iOs-StoryBoard/TestTable.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="ProgettoPilota-iOs-StoryBoard/DataListDataSource/AreeDataListSource.cs">
     <Files>
-      <File FileName="ProgettoPilota-iOs-StoryBoard/DataListViewController/RootViewController.cs" Line="35" Column="52" />
-      <File FileName="ProgettoPilota-iOs-StoryBoard/DataListDataSource/AreeDataListSource.cs" Line="35" Column="4" />
-      <File FileName="ProgettoPilota-iOs-StoryBoard/DataListViewController/RootViewController.designer.cs" Line="19" Column="4" />
-      <File FileName="ProgettoPilota-iOs-StoryBoard/MenuTableCell/MenuTableViewCell.cs" Line="20" Column="4" />
-      <File FileName="ProgettoPilota-iOs-StoryBoard/MenuTableCell/MenuTableViewCell.designer.cs" Line="1" Column="1" />
-      <File FileName="ProgettoPilota-iOs-StoryBoard/TestTable.cs" Line="18" Column="25" />
+      <File FileName="ProgettoPilota-iOs-StoryBoard/DataListDataSource/AreeDataListSource.cs" Line="39" Column="4" />
+      <File FileName="ProgettoPilota-iOs-StoryBoard/DataListDataSource/DataListDataSourceBase.cs" Line="1" Column="1" />
+      <File FileName="CoreFactory/ImageFactory.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State expanded="True">
+          <Node name="CoreFactory" expanded="True">
+            <Node name="Resources" expanded="True">
+              <Node name="Images" expanded="True" />
+            </Node>
+          </Node>
           <Node name="ProgettoPilota-iOs-StoryBoard" expanded="True">
-            <Node name="DataEntryViewControllers" expanded="True" />
             <Node name="DataListDataSource" expanded="True" />
-            <Node name="DataListViewController" expanded="True">
-              <Node name="RootViewController.cs" expanded="True" />
-            </Node>
-            <Node name="MenuTableCell" expanded="True">
-              <Node name="MenuTableViewCell.cs" expanded="True" />
-            </Node>
-            <Node name="TestTable.cs" selected="True" />
+            <Node name="MainStoryboard.storyboard" selected="True" />
           </Node>
         </State>
       </Pad>
